@@ -1,0 +1,316 @@
+ 🔥 MASTER PROMPT FULLY ANIMATED INTERACTIVE PORTFOLIO WEBSITE
+
+Prompt
+
+Create a fully animated, modern, professional personal portfolio website for an engineering student named Roshan Awari.
+
+The website should be a single-page application with smooth scrolling navigation, click-based detailed views, and rich animations throughout.
+
+The goal is to build a recruiter-ready portfolio that feels premium, interactive, and well-structured — not crowded.
+
+🎨 DESIGN & THEME
+
+Theme Dark mode with a subtle accent color (teal  green)
+
+Style Minimal, clean, modern
+
+Typography Sans-serif, developer-friendly
+
+Layout Spacious, balanced, professional
+
+Fully responsive (desktop, tablet, mobile)
+
+No clutter, no unnecessary text
+
+🧭 NAVIGATION BAR (GLOBAL)
+
+Sticky animated navbar at the top
+
+Menu items
+
+Home
+
+Skills
+
+Projects
+
+Achievements
+
+Education
+
+Contact
+
+Smooth scroll to sections
+
+Active section highlight while scrolling
+
+Hover underline animation
+
+Slight blur  glassmorphism effect on scroll
+
+🏠 HOME + ABOUT SECTION (FIRST IMPRESSION)
+Layout
+
+Split screen layout
+
+Left side
+
+Large animated heading
+
+“Hi, I’m Roshan Awari”
+
+Animated subtitle (typing or fade)
+
+“Engineering Student  Developer  Problem Solver”
+
+About paragraph visible directly here, explaining
+
+Current BTech status
+
+Interest in software development
+
+Passion for building projects and learning
+
+Two CTA buttons
+
+ 
+
+Right side
+
+Profile image or developer illustration
+
+Floating  parallax animation
+
+Animations
+
+Text slides in sequentially
+
+Buttons glow on hover
+
+Image floats gently
+
+🧠 SKILLS SECTION (CATEGORY-WISE)
+Layout
+
+Skills divided into clearly separated categories
+
+Programming Languages
+
+Web Technologies
+
+Tools & Platforms
+
+Machine Learning (Basics)
+
+Interaction
+
+Each category displayed as
+
+Tabs OR expandable sections
+
+Skill cards include
+
+Icon
+
+Skill name
+
+Progress bars animate from 0% when visible
+
+Hover animations scale + glow
+
+📂 PROJECTS SECTION (CLICK → FULL DETAILS)
+Main Projects View
+
+Grid of animated project cards
+
+Each card shows
+
+Project title
+
+One-line summary
+
+“View Project” button
+
+Animations
+
+Cards slide up on scroll
+
+Hover lift + shadow effect
+
+🔍 PROJECT DETAILS (ON CLICK)
+
+When a user clicks “View Project”, open a full-screen modal or slide-in panel with smooth animation.
+
+Inside Project Details
+
+Project title (large heading)
+
+Detailed description
+
+Problem statement
+
+Solution overview
+
+Screenshot gallery  carousel
+
+Tech stack displayed as icons or badges
+
+Buttons
+
+GitHub repository link
+
+Live demo (if available)
+
+Close button with smooth exit animation
+
+This should feel like a project case study, not just a popup.
+
+🏆 ACHIEVEMENTS  CERTIFICATES SECTION
+Main View
+with images
+Cards for
+
+Hackathons
+
+Certificates
+
+Workshops
+
+Each card includes
+
+Title
+
+Issuer
+
+Year
+
+“View Certificate” button
+
+On Click (IMPORTANT)
+
+Certificate image opens in
+
+Modal popup
+
+Zoom-in animation
+
+If multiple certificates
+
+Swipe  arrow navigation
+
+Caption below image
+
+🎓 EDUCATION SECTION
+Layout
+
+Vertical timeline design
+
+Each entry includes
+
+Degree (BTech)
+
+College name
+
+Year range
+
+Current education highlighted
+(eduction - 10th ,12th , btech)
+
+Animation
+
+Timeline line grows on scroll
+
+Items fade + slide alternately
+
+📬 CONTACT SECTION
+Layout
+
+Two-column design
+
+Left side
+
+Email
+
+GitHub
+
+LinkedIn
+
+Social icons with hover animation
+
+Right side
+
+Contact form
+
+Name
+
+Email
+
+Message
+
+Animated input focus
+
+Submit button with loading animation
+
+🔻 FOOTER
+
+Minimal footer
+
+Text
+
+“© 2026 Roshan Awari. Built with passion.”
+
+Smooth fade-in
+
+⚙️ TECH & ANIMATION REQUIREMENTS
+
+Smooth scrolling behavior
+
+Scroll-triggered animations
+
+Click-based modals and transitions
+
+Micro-interactions on buttons and cards
+
+Use
+
+React  Next.js
+
+Tailwind CSS
+
+Framer Motion
+
+Optional Swiper.js for image carousels
+
+Performance optimized animations
+
+🧩 DATA STRUCTURE REQUIREMENT (VERY IMPORTANT)
+
+All personal data must be stored in central data files, such as
+
+projects data
+
+skills data
+
+achievements data
+
+education data
+
+contact info
+
+So that
+
+Updating content does not require changing layout or animation code
+
+Adding new projects or certificates is easy
+
+🎯 FINAL GOAL
+
+The website should
+
+Feel premium and interactive
+
+Clearly show skills, projects, and achievements
+
+Impress recruiters and hackathon judges
+
+Represent a serious engineering student portfolio

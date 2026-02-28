@@ -1,0 +1,32 @@
+
+> my-app@0.1.0 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 15.0s
+  Running TypeScript ...
+Failed to compile.
+
+./src/components/HeroSection.tsx:48:37
+Type error: Type '{ hidden: { opacity: number; y: number; }; visible: { opacity: number; y: number; transition: { duration: number; ease: string; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'Variant'.
+      Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'TargetAndTransition'.
+        Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type '{ transition?: Transition<any> | undefined; transitionEnd?: ResolvedValues$1 | undefined; }'.
+          Types of property 'transition' are incompatible.
+            Type '{ duration: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+              Type '{ duration: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                Type '{ duration: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+                  Types of property 'ease' are incompatible.
+                    Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+
+[0m [90m 46 |[39m                         className[33m=[39m[32m"flex flex-col gap-6"[39m
+ [90m 47 |[39m                     [33m>[39m
+[31m[1m>[22m[39m[90m 48 |[39m                         [33m<[39m[33mmotion[39m[33m.[39mdiv variants[33m=[39m{itemVariants} className[33m=[39m[32m"inline-block"[39m[33m>[39m
+ [90m    |[39m                                     [31m[1m^[22m[39m
+ [90m 49 |[39m                             [33m<[39m[33mspan[39m className[33m=[39m[32m"px-4 py-2 rounded-full bg-card border border-card-border text-sm font-medium text-accent"[39m[33m>[39m
+ [90m 50 |[39m                                 [33mWelcome[39m to my portfolio
+ [90m 51 |[39m                             [33m<[39m[33m/[39m[33mspan[39m[33m>[39m[0m
+Next.js build worker exited with code: 1 and signal: null

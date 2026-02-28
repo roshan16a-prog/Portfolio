@@ -21,7 +21,7 @@ export const personalInfo = {
     linkedin: "https://www.linkedin.com/in/roshan-awari-79552a329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", // Replace
     leetcode: "https://leetcode.com/u/IP4KlDC3ag/",
     resume: "/resume.pdf",
-    profileImage: "/Profile.jpg",
+    profileImage: "/Profile.jpeg",
 };
 
 export const skills = {

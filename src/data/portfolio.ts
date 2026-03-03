@@ -18,7 +18,7 @@ export const personalInfo = {
         "I am an AI and Machine Learning enthusiast and an engineering student at Yeshwantrao Chavan College of Engineering (YCCE), Nagpur. I have a strong foundation in Data Structures and Algorithms, along with hands-on experience in machine learning and data analysis. I am passionate about building intelligent and scalable systems using Python and modern ML techniques. I enjoy writing clean, efficient code and applying analytical thinking to solve real-world problems in AI, data science, and software engineering.",
     email: "roshan16a@gmail.com",
     github: "https://github.com/roshan16a-prog/",
-    linkedin: "https://www.linkedin.com/in/roshan-awari-79552a329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", // Replace
+    linkedin: "https://www.linkedin.com/in/roshan-awari-79552a329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     leetcode: "https://leetcode.com/u/IP4KlDC3ag/",
     resume: "/resume.pdf",
     profileImage: "/Profile.jpeg",
@@ -70,11 +70,11 @@ export const skills = {
             name: "Programming Languages",
             icon: Terminal,
             skills: [
-                { name: "Python", level: 90 },
-                { name: "JavaScript/TypeScript", level: 85 },
-                { name: "C++", level: 80 },
-                { name: "Java", level: 75 },
-                { name: "C", level: 75 },
+                { name: "Python", level: 85 },
+                { name: "JavaScript", level: 75 },
+                { name: "C++", level: 70 },
+                { name: "Java", level: 90 },
+                { name: "C", level: 95 },
             ],
         },
 

@@ -12,17 +12,15 @@
 }
 
 :root {
-  /* Enforce Dark Mode as Default */
-  --background: #050505;
+   --background: #050505;
   --foreground: #f3f4f6;
   
-  /* Teal / Green Accent */
-  --accent: #14b8a6; /* teal-500 */
-  --accent-hover: #0d9488; /* teal-600 */
+   --accent: #14b8a6; 
+  --accent-hover: #0d9488; 
   
-  /* Cards / Elements */
+  
   --card: #111111;
-  --card-border: #262626; /* neutral-800 */
+  --card-border: #262626; 
 }
 
 body {
@@ -32,8 +30,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Custom Scrollbar for a premium feel */
-::-webkit-scrollbar {
+ ::-webkit-scrollbar {
   width: 8px;
 }
 

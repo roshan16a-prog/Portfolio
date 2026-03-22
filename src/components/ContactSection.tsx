@@ -23,7 +23,7 @@ export default function ContactSection() {
                     viewport={{ once: true, margin: "-100px" }}
                     transition={{ duration: 0.6 }}
                     className="mb-12"
-                >
+                 > 
                     <h2 className="text-4xl md:text-5xl font-bold mb-6">Get In <span className="text-accent">Touch</span></h2>
                     <p className="text-foreground/70 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
                         I&apos;m currently open to new opportunities, collaborations, and freelance projects.

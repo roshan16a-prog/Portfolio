@@ -50,8 +50,9 @@ export const skills = {
             icon: Globe,
             skills: [
                 { name: "React / Next.js", level: 90 },
-                { name: "Tailwind CSS", level: 95 },
+                { name: "Tailwind CSS", level: 85 },
                 { name: "Node.js", level: 80 },
+                { name: "JavaScript", level: 75 },
                 { name: "HTML & CSS", level: 95 },
             ],
         },
@@ -71,7 +72,6 @@ export const skills = {
             icon: Terminal,
             skills: [
                 { name: "Python", level: 85 },
-                { name: "JavaScript", level: 75 },
                 { name: "C++", level: 70 },
                 { name: "Java", level: 90 },
                 { name: "C", level: 95 },
@@ -186,6 +186,34 @@ export const projects = [
 ];
 
 export const achievements = [
+    {
+        id: "ach-18",
+        title: "Participant - Internship Common Aptitude Test (LCAT)",
+        issuer: "Labmentix",
+        year: "2026",
+        date: "March 21, 2026",
+        image: "/Certificates/18.jpeg",
+        description: "Awarded a Certificate of Participation for successfully appearing in the Internship Common Aptitude Test (LCAT) conducted by Labmentix. The assessment evaluated aptitude, analytical thinking, and readiness for internship opportunities, recognizing dedication and effort toward professional skill development."
+    },
+    {
+        id: "ach-17",
+        title: "Quantitative Research Job Simulation",
+        issuer: "JPMorgan Chase & Co. via Forage",
+        year: "2026",
+        date: "March 5, 2026",
+        image: "/Certificates/17.jpeg",
+        description: "Successfully completed the Quantitative Research Job Simulation offered by JPMorgan Chase & Co. through Forage. The program involved practical tasks such as analyzing price data, pricing commodity storage contracts, performing credit risk analysis, and bucketizing FICO scores, providing hands-on exposure to real-world quantitative finance workflows."
+    },
+    {
+        id: "ach-16",
+        title: "Participant - Hackathonix 2.0",
+        issuer: "KDK College of Engineering, Nagpur",
+        year: "2026",
+        date: "March 9, 2026",
+        image: "/Certificates/16.jpeg",
+        description: "Received a Certificate of Participation for actively participating in 'Hackathonix 2.0', a 12-hour hackathon organized by the Coding Club of the Department of Computer Science and Engineering at KDK College of Engineering, Nagpur, in association with the Institute of Engineers (India). The event emphasized innovation, teamwork, and rapid problem-solving in a competitive technical environment."
+    },
+
     {
         id: "ach-15",
         title: "Winner - Sherlock Ohms (Technical Treasure Hunt)",

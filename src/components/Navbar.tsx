@@ -40,10 +40,12 @@ export default function Navbar() {
         const targetId = href.substring(1);
         const element = document.getElementById(targetId);
         if (element) {
-            window.scrollTo({
-                top: element.offsetTop - 80, // Adjust for navbar height
-                behavior: "smooth",
-            });
+            setTimeout(() => {
+                window.scrollTo({
+                    top: element.offsetTop - 80, // Adjust for navbar height
+                    behavior: "smooth",
+                });
+            }, 50);
         }
     };
 

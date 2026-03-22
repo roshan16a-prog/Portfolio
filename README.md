@@ -15,7 +15,7 @@
 
 ## 🌐 Live Demo
 
-🔗 https://portfolio-three-weld-j8b0gueai1.vercel.app
+🔗 https://portfolio-nud2.vercel.app
 
 ---
 

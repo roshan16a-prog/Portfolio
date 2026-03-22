@@ -83,6 +83,22 @@ export const skills = {
 
 export const projects = [
     {
+        id: "HealthRiskMLClassifier",
+        title: "Novagen Health Prediction",
+        summary: "A machine learning project that predicts health outcomes using multiple classification algorithms, with Gradient Boosting achieving 95.5% accuracy.",
+        description: "Novagen Health Prediction is a complete machine learning workflow developed to evaluate patient health indicators and predict specific target outcomes. The project tests ten different classification algorithms, including linear models, tree-based models, boosting, and ensemble methods. Among all experiments, the Gradient Boosting Classifier achieved the strongest performance with 95.5% accuracy, followed closely by a Stacking Classifier (95.3%). The trained Gradient Boosting model and corresponding data scaler are saved as portable artifacts (.pkl) for easy deployment.",
+        problemStatement: "Building reliable predictive models for healthcare risk assessment is challenging due to the need for high accuracy, the complexity of clinical indicators, and the requirement to compare multiple modeling approaches.",
+        solution: "Developed a comprehensive machine learning classification pipeline. The solution involves loading a structured clinical dataset, performing feature extraction and standardizing data using StandardScaler. Ten models were trained and cross-evaluated using an 80/20 train-test split. The best performer, a Gradient Boosting Classifier, was fine-tuned to achieve 95.5% accuracy.",
+        features: ["Comparative analysis of 10 machine learning classification models.", "End-to-end data processing and scaling pipeline using StandardScaler.", "Implementation of diverse model types: Linear, Tree-Based, Boosting, and Ensemble.", "High-performance Gradient Boosting model achieving 95.5% accuracy.", "Trained model and scaler serialization to portable .pkl files.", "Detailed performance reporting including accuracy, precision, recall, and F1-score."],
+        tools: ["Python", "Pandas", "Scikit-learn", "Matplotlib", "Jupyter Notebook"],
+        duration: "Dec 2025 - Jan 2026",
+        images: ["/HealthRisk ML Classifier/cover.png"],
+        screenshots: ["/HealthRisk ML Classifier/1.png", "/HealthRisk ML Classifier/2.png", "/HealthRisk ML Classifier/3.png", "/HealthRisk ML Classifier/4.png", "/HealthRisk ML Classifier/5.png", "/HealthRisk ML Classifier/6.png", "/HealthRisk ML Classifier/7.png", "/HealthRisk ML Classifier/8.png", "/HealthRisk ML Classifier/9.png", "/HealthRisk ML Classifier/10.png", "/HealthRisk ML Classifier/11.png"],
+        techStack: ["Python", "Machine Learning", "Classification", "Scikit-learn", "Data Analysis", "Gradient Boosting"],
+        githubUrl: "https://github.com/roshan16a-prog/HealthRisk-ML-Classifier",
+        liveUrl: ""
+    },
+    {
         id: "NextStepAI",
         title: "AI Interview Coach",
         summary: "A full-stack AI-powered interview preparation platform that simulates real interview scenarios and provides real-time, data-driven feedback to help candidates improve their performance.",
@@ -96,7 +112,7 @@ export const projects = [
         screenshots: ["/NextStepAI/ss1.png", "/NextStepAI/ss2.png", "/NextStepAI/ss3.png", "/NextStepAI/ss4.png", "/NextStepAI/ss5.png", "/NextStepAI/ss6.png", "/NextStepAI/ss7.png", "/NextStepAI/ss8.png", "/NextStepAI/ss9.png", "/NextStepAI/ss10.png", "/NextStepAI/ss11.png"],
         techStack: ["React", "Next.js", "FastAPI", "PostgreSQL", "Tailwind CSS", "AI/NLP", "Speech-to-Text"],
         githubUrl: "https://github.com/roshan16a-prog/NextStepAI",
-        liveUrl: " "
+        liveUrl: ""
     },
 
     {
@@ -120,33 +136,14 @@ export const projects = [
         id: "StudentAnalysis",
         title: "Student Habits & Performance Analysis",
         summary: "Exploratory data analysis project to understand how student daily habits affect academic performance.",
-        description:
-            "This project is an exploratory data analysis (EDA) focused study on student habits and their impact on exam performance. It analyzes real-world student data to understand how factors such as study hours, attendance, sleep duration, and screen time influence academic outcomes. The main goal was to deeply understand the data, identify meaningful patterns, and communicate insights through clear visualizations, rather than directly applying machine learning algorithms.",
-        problemStatement:
-            "Students often struggle to understand how their daily habits influence academic performance. Without data-driven insights, it is difficult to identify which habits positively or negatively affect exam results.",
-        solution:
-            "Performed detailed exploratory data analysis using Python to study relationships between student habits and exam scores. Used statistical summaries and visualizations to uncover patterns and provide clear insights that help understand performance trends.",
-        features: [
-            "Data loading and exploration using Pandas",
-            "Data cleaning and preparation for analysis",
-            "Exploratory Data Analysis (EDA) to identify trends and relationships",
-            "Visualizations including histograms, scatter plots, heatmaps, and pie charts",
-            "Insight interpretation for each visualization"
-        ],
+        description: "This project is an exploratory data analysis (EDA) focused study on student habits and their impact on exam performance. It analyzes real-world student data to understand how factors such as study hours, attendance, sleep duration, and screen time influence academic outcomes. The main goal was to deeply understand the data, identify meaningful patterns, and communicate insights through clear visualizations, rather than directly applying machine learning algorithms.",
+        problemStatement: "Students often struggle to understand how their daily habits influence academic performance. Without data-driven insights, it is difficult to identify which habits positively or negatively affect exam results.",
+        solution: "Performed detailed exploratory data analysis using Python to study relationships between student habits and exam scores. Used statistical summaries and visualizations to uncover patterns and provide clear insights that help understand performance trends.",
+        features: ["Data loading and exploration using Pandas", "Data cleaning and preparation for analysis", "Exploratory Data Analysis (EDA) to identify trends and relationships", "Visualizations including histograms, scatter plots, heatmaps, and pie charts", "Insight interpretation for each visualization"],
         tools: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
         duration: "Nov-2025",
         images: ["/StudentAnalysis/p.png"],
-        screenshots: [
-            "/StudentAnalysis/attendance_vs_exam_score.png",
-            "/StudentAnalysis/daily_time_allocation.png",
-            "/StudentAnalysis/exam_score_distribution_by_risk_group.png",
-            "/StudentAnalysis/extracurricular_vs_mental_health_violin.png",
-            "/StudentAnalysis/internet_quality_vs_exam_score.png",
-            "/StudentAnalysis/mental_health_study_vs_exam_score.png",
-            "/StudentAnalysis/mental_health_vs_exam_score.png",
-            "/StudentAnalysis/screen_time_distribution.png",
-            "/StudentAnalysis/study_hours_vs_exam_score.png"
-        ],
+        screenshots: ["/StudentAnalysis/attendance_vs_exam_score.png", "/StudentAnalysis/daily_time_allocation.png", "/StudentAnalysis/exam_score_distribution_by_risk_group.png", "/StudentAnalysis/extracurricular_vs_mental_health_violin.png", "/StudentAnalysis/internet_quality_vs_exam_score.png", "/StudentAnalysis/mental_health_study_vs_exam_score.png", "/StudentAnalysis/mental_health_vs_exam_score.png", "/StudentAnalysis/screen_time_distribution.png", "/StudentAnalysis/study_hours_vs_exam_score.png"],
         techStack: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
         githubUrl: "https://github.com/roshan16a-prog/Student_Habits_Performance_Analysis",
         liveUrl: ""

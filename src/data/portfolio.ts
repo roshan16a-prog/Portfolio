@@ -183,34 +183,7 @@ export const projects = [
 ];
 
 export const achievements = [
-    {
-        id: "ach-18",
-        title: "Participant - Internship Common Aptitude Test (LCAT)",
-        issuer: "Labmentix",
-        year: "2026",
-        date: "March 21, 2026",
-        image: "/Certificates/18.jpeg",
-        description: "Awarded a Certificate of Participation for successfully appearing in the Internship Common Aptitude Test (LCAT) conducted by Labmentix. The assessment evaluated aptitude, analytical thinking, and readiness for internship opportunities, recognizing dedication and effort toward professional skill development."
-    },
-    {
-        id: "ach-17",
-        title: "Quantitative Research Job Simulation",
-        issuer: "JPMorgan Chase & Co. via Forage",
-        year: "2026",
-        date: "March 5, 2026",
-        image: "/Certificates/17.jpeg",
-        description: "Successfully completed the Quantitative Research Job Simulation offered by JPMorgan Chase & Co. through Forage. The program involved practical tasks such as analyzing price data, pricing commodity storage contracts, performing credit risk analysis, and bucketizing FICO scores, providing hands-on exposure to real-world quantitative finance workflows."
-    },
-    {
-        id: "ach-16",
-        title: "Participant - Hackathonix 2.0",
-        issuer: "KDK College of Engineering, Nagpur",
-        year: "2026",
-        date: "March 9, 2026",
-        image: "/Certificates/16.jpeg",
-        description: "Received a Certificate of Participation for actively participating in 'Hackathonix 2.0', a 12-hour hackathon organized by the Coding Club of the Department of Computer Science and Engineering at KDK College of Engineering, Nagpur, in association with the Institute of Engineers (India). The event emphasized innovation, teamwork, and rapid problem-solving in a competitive technical environment."
-    },
-
+    //achievements
     {
         id: "ach-15",
         title: "Winner - Sherlock Ohms (Technical Treasure Hunt)",
@@ -219,42 +192,7 @@ export const achievements = [
         date: "February 26, 2026",
         image: "/Certificates/15.jpeg",
         description: "Emerged as the undisputed Winner in 'Sherlock Ohms', a highly competitive Technical Treasure Hunt. This prestigious event was organized during YASH 26.0, Central India's biggest National Techno-Cultural Fest, by the IEEE PELS Student Chapter at Yeshwantrao Chavan College of Engineering (YCCE), Nagpur. The challenge tested advanced problem-solving capabilities, rapid technical deciphering, and strategic teamwork under significant time constraints.",
-    },
-    {
-        id: "ach-14",
-        title: "Hackathon Participant - Enkryptia 2k26",
-        issuer: "Government Polytechnic Nagpur",
-        year: "2026",
-        date: "February 18, 2026",
-        image: "/Certificates/14.jpeg",
-        description: "Successfully participated in the intensive Hackathon at Enkryptia 2k26, a major technical symposium organized by the Department of Artificial Intelligence & Machine Learning (AIML) and Information Technology at Government Polytechnic Nagpur. Demonstrated immense dedication, innovative programming practices, and collaborative software development skills while tackling complex real-world problem statements over the course of the rigorous event.",
-    },
-    {
-        id: "ach-13",
-        title: "Hackathon Participant - Abhyudaya 2025",
-        issuer: "IIIT Nagpur & Engineering India",
-        year: "2026",
-        date: "February 1, 2026",
-        image: "/Certificates/13.jpeg",
-        description: "Actively competed in the flagship Hackathon during Abhyudaya 2025, an acclaimed Inter College Socio-Technical Event organized by Engineering India in collaboration with Vishwamanthan Research Foundation. Hosted at the prestigious Indian Institute of Information Technology, Nagpur (IIITN), the competition involved conceptualizing and developing impactful technology-driven solutions to address critical socioeconomic challenges within a competitive, fast-paced environment.",
-    },
-    {
-        id: "ach-12",
-        title: "IT Career Roadmap Certification",
-        issuer: "SkillEcted",
-        year: "2025",
-        date: "December 4, 2025",
-        image: "/Certificates/12.jpg",
-        description: "Successfully completed a comprehensive IT Career Roadmap Session formulated by SkillEcted. This specialized certification acknowledges the attainment of critical insights into the modern technology industry landscape, emerging software engineering paradigms, and strategic continuous learning paths. It emphasizes a structured approach to building a robust, future-proof career in the ever-evolving IT domain.",
-    },
-    {
-        id: "ach-11",
-        title: "Data Structure Essentials",
-        issuer: "YCCE",
-        year: "2025",
-        date: "November 2025",
-        image: "/Certificates/11.jpg",
-        description: "Successfully completed an intensive Value Added Course focused on 'Data Structure Essentials' offered by the Department of Computer Science and Engineering (AIML) at Yeshwantrao Chavan College of Engineering. The rigorous curriculum covered fundamental and advanced data structures, algorithmic complexities, and memory optimization techniques, providing a robust foundational understanding necessary for developing highly efficient and scalable software applications.",
+        category: "Achievement"
     },
     {
         id: "ach-10",
@@ -264,15 +202,50 @@ export const achievements = [
         date: "November 2025",
         image: "/Certificates/10.jpg",
         description: "Achieved academic excellence by securing the 7th position among the top 10 students in the B.Tech II Semester examinations for Computer Science and Engineering (Artificial Intelligence and Machine Learning). Awarded the prestigious Semester Topper Certificate by Yeshwantrao Chavan College of Engineering, reflecting an outstanding SGPA of 9.08 and demonstrating a consistent, high-level mastery of rigorous academic coursework.",
+        category: "Achievement"
+    },
+
+    {
+        id: "ach-5",
+        title: "2nd Position - Cipher-Chase",
+        issuer: "YCCE Techfest (Upsurge 2K25)",
+        year: "2025",
+        date: "August 2025",
+        image: "/Certificates/5.jpg",
+        description: "Secured the highly competitive 2nd Position in 'Cipher-Chase', a rigorous coding and logic-based competition featured during Upsurge 2K25, the flagship Techfest at Yeshwantrao Chavan College of Engineering. Competing as 'Team 4-bit', this remarkable achievement highlighted exceptional perseverance, rapid algorithmic problem solving, and superior technical abilities under significant competitive pressure.",
+        category: "Achievement"
+    },
+
+    //Completion
+    {
+        id: "ach-17",
+        title: "Quantitative Research Job Simulation",
+        issuer: "JPMorgan Chase & Co. via Forage",
+        year: "2026",
+        date: "March 5, 2026",
+        image: "/Certificates/17.jpeg",
+        description: "Successfully completed the Quantitative Research Job Simulation offered by JPMorgan Chase & Co. through Forage. The program involved practical tasks such as analyzing price data, pricing commodity storage contracts, performing credit risk analysis, and bucketizing FICO scores, providing hands-on exposure to real-world quantitative finance workflows.",
+        category: "Completion"
     },
     {
-        id: "ach-9",
-        title: "Smart India Hackathon 2025 (Internal)",
-        issuer: "YCCE & SIH",
+        id: "ach-12",
+        title: "IT Career Roadmap Certification",
+        issuer: "SkillEcted",
         year: "2025",
-        date: "September 2025",
-        image: "/Certificates/9.jpg",
-        description: "Showcased exceptional creativity, technical innovation, and agile problem-solving skills during the Smart India Hackathon (SIH) 2025 Internal Hackathon. Actively contributed to developing an inventive digital solution aimed at resolving pressing real-world challenges, emphasizing teamwork, rapid prototyping, and a strong commitment to building a smarter and more technologically sustainable future for India.",
+        date: "December 4, 2025",
+        image: "/Certificates/12.jpg",
+        description: "Successfully completed a comprehensive IT Career Roadmap Session formulated by SkillEcted. This specialized certification acknowledges the attainment of critical insights into the modern technology industry landscape, emerging software engineering paradigms, and strategic continuous learning paths. It emphasizes a structured approach to building a robust, future-proof career in the ever-evolving IT domain.",
+        category: "Completion"
+    },
+    {
+        id: "ach-11",
+        title: "Data Structure Essentials",
+        issuer: "YCCE",
+        year: "2025",
+        date: "November 2025",
+        image: "/Certificates/11.jpg",
+        description: "Successfully completed an intensive Value Added Course focused on 'Data Structure Essentials' offered by the Department of Computer Science and Engineering (AIML) at Yeshwantrao Chavan College of Engineering. The rigorous curriculum covered fundamental and advanced data structures, algorithmic complexities, and memory optimization techniques, providing a robust foundational understanding necessary for developing highly efficient and scalable software applications.",
+        category: "Completion"
     },
     {
         id: "ach-8",
@@ -282,6 +255,7 @@ export const achievements = [
         date: "August 2025",
         image: "/Certificates/8.jpg",
         description: "Earned a professional certification in 'SQL for Data Analysis' through Simplilearn's SkillUP platform. This comprehensive course deeply explored relational database management, complex query formulation, data manipulation, and advanced analytical operations. Demonstrated a strong initiative to deepen analytical capabilities and harness the power of SQL to extract meaningful, data-driven insights from complex datasets.",
+        category: "Completion"
     },
     {
         id: "ach-7",
@@ -291,24 +265,7 @@ export const achievements = [
         date: "August 2025",
         image: "/Certificates/7.jpg",
         description: "Successfully acquired a professional certification in the 'Basics of Data Structures and Algorithms' via the Simplilearn SkillUP initiative. This course provided an extensive overview of core programmatic constructs, problem-solving methodologies, and algorithm design principles. It solidified the essential logical framework required to write optimized, well-structured, and high-performance code across modern software development.",
-    },
-    {
-        id: "ach-6",
-        title: "Java Programming Excellence",
-        issuer: "CodeAlpha",
-        year: "2025",
-        date: "August 2025",
-        image: "/Certificates/6.jpg",
-        description: "Demonstrated significant technical proficiency by achieving a high score of 58 out of 70 in the rigorous Java Programming Quiz conducted globally by CodeAlpha. This accomplishment underscores a deep, practical understanding of Object-Oriented Programming (OOP) concepts, core Java APIs, syntax intricacies, and the dedication to continuously honing advanced programming skills within a highly competitive technical environment.",
-    },
-    {
-        id: "ach-5",
-        title: "2nd Position - Cipher-Chase",
-        issuer: "YCCE Techfest (Upsurge 2K25)",
-        year: "2025",
-        date: "August 2025",
-        image: "/Certificates/5.jpg",
-        description: "Secured the highly competitive 2nd Position in 'Cipher-Chase', a rigorous coding and logic-based competition featured during Upsurge 2K25, the flagship Techfest at Yeshwantrao Chavan College of Engineering. Competing as 'Team 4-bit', this remarkable achievement highlighted exceptional perseverance, rapid algorithmic problem solving, and superior technical abilities under significant competitive pressure.",
+        category: "Completion"
     },
     {
         id: "ach-4",
@@ -318,6 +275,7 @@ export const achievements = [
         date: "July 2025",
         image: "/Certificates/4.jpg",
         description: "Successfully completed the 'Introduction to Image Generation' online course, uniquely powered by Google Cloud and hosted on Simplilearn. This forward-looking certification explored the foundational concepts of generative AI, diffusion models, and the intricate mechanics behind AI-driven image synthesis. It reflects a strong, proactive commitment to mastering cutting-edge artificial intelligence technologies and exploring their creative applications.",
+        category: "Completion"
     },
     {
         id: "ach-3",
@@ -327,6 +285,7 @@ export const achievements = [
         date: "July 2025",
         image: "/Certificates/3.jpg",
         description: "Mastered professional photographic post-processing by completing a comprehensive Udemy certification course on Adobe Lightroom. Spanning 1.5 total hours, the curriculum bridged the gap from beginner techniques to advanced aesthetic workflows. Gained hands-on expertise in color grading, exposure correction, structural enhancements, and overall visual composition crucial for high-quality digital media production.",
+        category: "Completion"
     },
     {
         id: "ach-2",
@@ -336,8 +295,83 @@ export const achievements = [
         date: "January 2025",
         image: "/Certificates/2.png",
         description: "Awarded a professional digital badge from IBM SkillsBuild upon successfully completing the 'Introduction to Retrieval-Augmented Generation' course. This cutting-edge curriculum provided a deep dive into modern AI architectures, focusing on how RAG frameworks enhance Large Language Models (LLMs) by integrating external knowledge bases, thereby reducing hallucinations and significantly improving the accuracy of AI-driven responses.",
+        category: "Completion"
     },
+
+    //participation
+    {
+        id: "ach-18",
+        title: "Participant - Internship Common Aptitude Test (LCAT)",
+        issuer: "Labmentix",
+        year: "2026",
+        date: "March 21, 2026",
+        image: "/Certificates/18.jpeg",
+        description: "Awarded a Certificate of Participation for successfully appearing in the Internship Common Aptitude Test (LCAT) conducted by Labmentix. The assessment evaluated aptitude, analytical thinking, and readiness for internship opportunities, recognizing dedication and effort toward professional skill development.",
+        category: "Participation"
+    },
+    {
+        id: "ach-16",
+        title: "Participant - Hackathonix 2.0",
+        issuer: "KDK College of Engineering, Nagpur",
+        year: "2026",
+        date: "March 9, 2026",
+        image: "/Certificates/16.jpeg",
+        description: "Received a Certificate of Participation for actively participating in 'Hackathonix 2.0', a 12-hour hackathon organized by the Coding Club of the Department of Computer Science and Engineering at KDK College of Engineering, Nagpur, in association with the Institute of Engineers (India). The event emphasized innovation, teamwork, and rapid problem-solving in a competitive technical environment.",
+        category: "Participation"
+    },
+    {
+        id: "ach-14",
+        title: "Hackathon Participant - Enkryptia 2k26",
+        issuer: "Government Polytechnic Nagpur",
+        year: "2026",
+        date: "February 18, 2026",
+        image: "/Certificates/14.jpeg",
+        description: "Successfully participated in the intensive Hackathon at Enkryptia 2k26, a major technical symposium organized by the Department of Artificial Intelligence & Machine Learning (AIML) and Information Technology at Government Polytechnic Nagpur. Demonstrated immense dedication, innovative programming practices, and collaborative software development skills while tackling complex real-world problem statements over the course of the rigorous event.",
+        category: "Participation"
+    },
+    {
+        id: "ach-13",
+        title: "Hackathon Participant - Abhyudaya 2025",
+        issuer: "IIIT Nagpur & Engineering India",
+        year: "2026",
+        date: "February 1, 2026",
+        image: "/Certificates/13.jpeg",
+        description: "Actively competed in the flagship Hackathon during Abhyudaya 2025, an acclaimed Inter College Socio-Technical Event organized by Engineering India in collaboration with Vishwamanthan Research Foundation. Hosted at the prestigious Indian Institute of Information Technology, Nagpur (IIITN), the competition involved conceptualizing and developing impactful technology-driven solutions to address critical socioeconomic challenges within a competitive, fast-paced environment.",
+        category: "Participation"
+    },
+    {
+        id: "ach-9",
+        title: "Smart India Hackathon 2025 (Internal)",
+        issuer: "YCCE & SIH",
+        year: "2025",
+        date: "September 2025",
+        image: "/Certificates/9.jpg",
+        description: "Showcased exceptional creativity, technical innovation, and agile problem-solving skills during the Smart India Hackathon (SIH) 2025 Internal Hackathon. Actively contributed to developing an inventive digital solution aimed at resolving pressing real-world challenges, emphasizing teamwork, rapid prototyping, and a strong commitment to building a smarter and more technologically sustainable future for India.",
+        category: "Participation"
+    },
+    {
+        id: "ach-6",
+        title: "Java Programming Excellence",
+        issuer: "CodeAlpha",
+        year: "2025",
+        date: "August 2025",
+        image: "/Certificates/6.jpg",
+        description: "Demonstrated significant technical proficiency by achieving a high score of 58 out of 70 in the rigorous Java Programming Quiz conducted globally by CodeAlpha. This accomplishment underscores a deep, practical understanding of Object-Oriented Programming (OOP) concepts, core Java APIs, syntax intricacies, and the dedication to continuously honing advanced programming skills within a highly competitive technical environment.",
+        category: "Participation"
+    },
+
 ];
+
+
+
+
+
+
+
+
+
+
+
 
 export const education = [
     {

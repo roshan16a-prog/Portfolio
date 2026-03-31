@@ -16,9 +16,10 @@ export default function AchievementsSection() {
     const sliderRef = useRef<HTMLDivElement>(null);
 
     const counts = {
+        Participation: achievements.filter(a => (a as any).category === "Participation").length,
         Achievement: achievements.filter(a => (a as any).category === "Achievement").length,
         Completion: achievements.filter(a => (a as any).category === "Completion").length,
-        Participation: achievements.filter(a => (a as any).category === "Participation").length,
+
     };
 
     const filteredAchievements = achievements.filter(
@@ -80,7 +81,7 @@ export default function AchievementsSection() {
                 </div>
 
                 {/* Category Tabs */}
-                <motion.div 
+                <motion.div
                     initial={{ opacity: 0, y: 15 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -99,9 +100,8 @@ export default function AchievementsSection() {
                                         setSelectedAchievementIndex(null);
                                         if (sliderRef.current) sliderRef.current.scrollTo({ left: 0, behavior: "smooth" });
                                     }}
-                                    className={`relative snap-center px-5 py-3 sm:px-8 sm:py-3.5 rounded-full text-sm sm:text-base font-bold transition-all duration-500 whitespace-nowrap z-10 flex-shrink-0 flex items-center gap-2 group ${
-                                        isActive ? "text-white" : "text-foreground/60 hover:text-foreground hover:bg-white/5 shadow-none"
-                                    }`}
+                                    className={`relative snap-center px-5 py-3 sm:px-8 sm:py-3.5 rounded-full text-sm sm:text-base font-bold transition-all duration-500 whitespace-nowrap z-10 flex-shrink-0 flex items-center gap-2 group ${isActive ? "text-white" : "text-foreground/60 hover:text-foreground hover:bg-white/5 shadow-none"
+                                        }`}
                                 >
                                     {isActive && (
                                         <motion.div
@@ -111,12 +111,12 @@ export default function AchievementsSection() {
                                         />
                                     )}
                                     <span className="relative z-10 flex items-center justify-center gap-2.5">
-                                        <Icon 
-                                            size={18} 
-                                            className={`transition-all duration-300 ${isActive ? 'text-white scale-110 drop-shadow-md' : 'text-foreground/50 group-hover:text-accent group-hover:scale-110'}`} 
+                                        <Icon
+                                            size={18}
+                                            className={`transition-all duration-300 ${isActive ? 'text-white scale-110 drop-shadow-md' : 'text-foreground/50 group-hover:text-accent group-hover:scale-110'}`}
                                         />
                                         <span className="tracking-wide">
-                                            {category} 
+                                            {category}
                                         </span>
                                         <span className={`text-xs px-2.5 py-0.5 rounded-full font-mono font-bold tracking-widest transition-all duration-300 ${isActive ? 'bg-black/20 text-white shadow-inner backdrop-blur-sm' : 'bg-background text-foreground/50 border border-card-border/50 group-hover:border-accent/30 shadow-inner'}`}>
                                             {counts[category]}

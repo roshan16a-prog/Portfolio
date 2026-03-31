@@ -96,7 +96,7 @@ export const projects = [
         screenshots: ["/Smartcard-Clustering-System/1.png", "/Smartcard-Clustering-System/2.png", "/Smartcard-Clustering-System/3.png", "/Smartcard-Clustering-System/4.png", "/Smartcard-Clustering-System/5.png", "/Smartcard-Clustering-System/6.png", "/Smartcard-Clustering-System/7.png", "/Smartcard-Clustering-System/8.png", "/Smartcard-Clustering-System/9.png", "/Smartcard-Clustering-System/10.png"],
         techStack: ["Python", "Machine Learning", "Unsupervised Learning", "Clustering", "PCA", "Scikit-learn"],
         githubUrl: "https://github.com/roshan16a-prog/Smartcard-Clustering-System",
-        liveUrl: " "
+        liveUrl: ""
     },
     {
         id: "HealthRiskMLClassifier",
@@ -233,6 +233,26 @@ export const achievements = [
     },
 
     //Completion
+    {
+        id: "ach-18",
+        title: "Software Engineering Job Simulation",
+        issuer: " Quantium  & Co. via Forage",
+        year: "2026",
+        date: "March 31, 2026",
+        image: "/Certificates/20.jpeg",
+        description: "Successfully completed the Software Engineering Job Simulation offered through Forage. The program involved practical tasks such as setting up a local development environment, processing data, building and improving a Dash application, testing application functionality, and automating the test suite, providing hands-on exposure to real-world software engineering workflows.",
+        category: "Completion"
+    },
+    {
+        id: "ach-19",
+        title: "GenAI Powered Data Analytics Job Simulation",
+        issuer: "Tata Group via Forage",
+        year: "2026",
+        date: "March 31, 2026",
+        image: "/Certificates/19.jpeg",
+        description: "Successfully completed the GenAI Powered Data Analytics Job Simulation offered through Forage. The program involved practical tasks such as exploratory data analysis, risk profiling, delinquency prediction using AI, business reporting, data storytelling, and implementing AI-driven collections strategies, providing hands-on exposure to modern data analytics and AI-powered decision-making workflows.",
+        category: "Completion"
+    },
     {
         id: "ach-17",
         title: "Quantitative Research Job Simulation",

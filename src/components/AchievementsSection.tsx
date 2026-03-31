@@ -8,10 +8,10 @@ import Image from "next/image";
 
 type TabCategory = "Achievement" | "Completion" | "Participation";
 
-const categories: TabCategory[] = ["Achievement", "Completion", "Participation"];
+const categories: TabCategory[] = ["Participation", "Achievement", "Completion"];
 
 export default function AchievementsSection() {
-    const [activeTab, setActiveTab] = useState<TabCategory>("Achievement");
+    const [activeTab, setActiveTab] = useState<TabCategory>("Participation");
     const [selectedAchievementIndex, setSelectedAchievementIndex] = useState<number | null>(null);
     const sliderRef = useRef<HTMLDivElement>(null);
 
